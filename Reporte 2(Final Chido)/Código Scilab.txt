@@ -1,0 +1,10 @@
+        a=input('Ingresa el valor de a =');
+	b=input('Ingresa el valor de b =');
+	c=input('Ingresa el valor de c =');
+	t=0:0.01:15;
+	Function_t=(c/a)+(b-(c/a))*exp(-a*t);
+	plot(t,Function_t,'b')
+	title('Funcion de Transferencia');
+	xlabel('segundos(s)','FontSize', 16);
+	ylabel('funcion','FontSize', 16); 
+	
